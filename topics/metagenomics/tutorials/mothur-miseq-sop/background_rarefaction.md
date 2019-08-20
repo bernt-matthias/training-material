@@ -1,8 +1,8 @@
 > ### {% icon comment %} Background: Rarefaction
 >
 > To estimate the fraction of species sequenced, rarefaction curves are typically used. A rarefaction curve
-> plots the number of species as a function of the number of individuals sampled. The curve usually begins
-> with a steep slope, which at some point begins to flatten as fewer species are being discovered per sample:
+> plots the number of OTUs as a function of the number of sampled sequences. The curve usually begins
+> with a steep slope, which at some point begins to flatten as fewer OTUs are being discovered per sample:
 > the gentler the slope, the less contribution of the sampling to the total number of operational taxonomic
 > units or OTUs.
 >

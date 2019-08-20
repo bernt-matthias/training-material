@@ -552,7 +552,7 @@ which is what we expect to find given the reference file we used. However, some 
 which could indicate insertions or deletions at the terminal ends of the alignments or other complicating factors.
 
 Also notice the `Polymer` column in the output table. This indicates the average homopolymer length. Since we know that
-our reference database does not contain any homopolymer stretches longer than 8 reads, any reads containing such
+our reference database does not contain any homopolymer stretches longer than 8 nucleotides, any reads containing such
 long stretches are likely the result of PCR errors and we would be wise to remove them.
 
 Next we will clean our data further by removing poorly aligned sequences and any sequences with long
@@ -724,7 +724,7 @@ this chimera removal using the `VSEARCH` algorithm {% cite Rognes2016 %} that is
 >
 {: .hands_on}
 
-Have a look at the FASTA output from **Pre.cluster**, it should looks something like this:
+Have a look at the FASTA output from **Pre.cluster**, it should look similar to this:
 
 ```
 >M00967_43_000000000-A3JHG_1_1101_13234_1983

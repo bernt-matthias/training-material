@@ -645,7 +645,7 @@ Even if the output of MetaPhlAn2 is bit easier to parse than the BIOM file, we w
 >    - "Input file" to `Community profile` output of `MetaPhlAn2`
 >
 > 2. **KRONA pie chart** {% icon tool %} with
->    - "What is the type of your input data" as `MetaPhlan`
+>    - "What is the type of your input data" as `tabular`
 >    - "Input file" to the output of `Format MetaPhlAn2`
 >
 {: .hands_on}
